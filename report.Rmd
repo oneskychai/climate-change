@@ -105,7 +105,7 @@ co2_time + xlim(-375, -330) +
   ggtitle(expression(paste("Atmospheric ",CO[2]," 375,000 BCE - 330,000 BCE")))
 ```
 
-We see in the period around 130,000 years ago that took over 11,000 years for CO~2~ levels to rise from 195 ppmv to 285 ppmv:
+We see in the period around 130,000 years ago that it took over 11,000 years for CO~2~ levels to rise from 195 ppmv to 285 ppmv:
 
 ```{r historic-co2-130000-years-ago, echo=FALSE}
 co2_time + xlim(-140, -120) +
