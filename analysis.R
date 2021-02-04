@@ -15,8 +15,11 @@ ggsave("figs/carbon_emissions_lineplot.png")
 temp_carbon %>% ggplot(aes(year)) +
   geom_abline(slope=0, col="gray") +
   geom_line(aes(y=temp_anomaly, col="combined anomaly"), alpha=.5, lwd=.5) +
+  geom_smooth(aes(y=temp_anomaly, col="combined anomaly"), se=FALSE) +
   geom_line(aes(y=land_anomaly, col="land anomaly"), alpha=.5, lwd=.5) +
+  geom_smooth(aes(y=land_anomaly, col="land anomaly"), se=FALSE) +
   geom_line(aes(y=ocean_anomaly, col="ocean anomaly"), alpha=.5, lwd=.5) +
+  geom_smooth(aes(y=ocean_anomaly, col="ocean anomaly"), se=FALSE) +
   geom_text(x=1810, y=0.06, label="20th Century Mean", col="gray65") +
   ylab(expression("temperature anomaly ("*~degree*"C)")) +
   ggtitle("Temperature anomaly relative to 20th century mean, 1880-2018") +

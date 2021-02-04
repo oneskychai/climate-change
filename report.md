@@ -67,7 +67,7 @@ We see natural cycles of CO<sub>2</sub> increase and decrease lasting
 50,000 to 100,000 years per cycle, with the decrease happening more
 slowly than the increase, and a sharp spike upward in recent history:
 
-![](report_files/figure-gfm/historic-co2-1.png)<!-- -->
+![](report_files/figure-gfm/historic-co2-800000-years-1.png)<!-- -->
 
 Zooming in on the period around 790,000 years ago, we see that it took
 roughly 10,000 years for CO<sub>2</sub> levels to rise from 200 ppmv to
