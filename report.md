@@ -81,7 +81,7 @@ ppmv to 300 ppmv:
 
 ![](report_files/figure-gfm/historic-co2-350000-years-ago-1.png)<!-- -->
 
-We see in the period around 130,000 years ago that took over 11,000
+We see in the period around 130,000 years ago that it took over 11,000
 years for CO<sub>2</sub> levels to rise from 195 ppmv to 285 ppmv:
 
 ![](report_files/figure-gfm/historic-co2-130000-years-ago-1.png)<!-- -->
